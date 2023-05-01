@@ -44,8 +44,7 @@ Route::prefix('tintuc')->group(function() {
     Route::get('/', [TintucController::class, 'index'])->name('index');
     Route::get('/thegioi', [TintucController::class, 'thegioi'])->name('thegioi');
     Route::get('/lienhe', [TintucController::class, 'lienhe'])->name('lienhe');
-    Route::get('/hello', [TintucController::class, 'lienhe'])->name('lienhe');
-    Route::get('/k', [TintucController::class, 'lienhe'])->name('lienhe');
+
 
 
 });
